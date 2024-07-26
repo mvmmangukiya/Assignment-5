@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Courses</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each courses}}
+            <tr>
+                <td>{{this.courseCode}}</td>
+                <td><a href="#">{{this.courseDescription}}</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

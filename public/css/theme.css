@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap');
+
+.bg-light{
+    background-color: #7697dd !important; 
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(112, 129, 230, 0.75);
+-moz-box-shadow: 0px 1px 9px 0px rgba(111, 133, 253, 0.75);
+box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 2px rgb(173, 170, 170);
+    font-size:26px;
+    color:#3b396f;
+}
+
+a.nav-link{
+    font-family: 'Lobster', cursive;
+}
+
+body, html{ /* from: https://coderwall.com/p/ape0jg/full-page-gradient-background
+    background: #e9e9f4; /* fallback color */
+    background: linear-gradient( to bottom, #aeacdf, #5172ce);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.btn-primary{
+    background-color: #5c63bd;
+    border-color: #3b396f;
+}
+
+.btn-primary:hover{
+    background-color: #a5b976;
+    border-color: #8381be;
+}
+
+/* table style */
+
+table.table tr:nth-child(odd) td{
+    background-color: #d9d8eb
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 2px rgb(128, 126, 126);
+
+}
+
+a{
+    color: #484587;
+}
+
+a:hover{
+    color: #2d2b54;
+}
+
+/* Form Styles */
+
+legend{
+    text-shadow: 1px 1px 2px gray;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+    font-family: 'Lobster', cursive;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Background gradient for the container */
+.container {
+    background: linear-gradient(to bottom, #d0e0ff, #a0c0ff);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f2f8ff; /* Light blue background for the table */
+}
+
+table thead th {
+    background-color: #a0c0ff; /* Darker blue for the header */
+    color: #333;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #a0c0ff; /* Border matching the header background */
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #d0e0ff; /* Lighter blue for even rows */
+}
+
+table tbody tr:hover {
+    background-color: #a0c0ff; /* Darker blue on hover */
+}
+
+h2 {
+    color: #333;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #a0c0ff;
+}
+
+a {
+    color: #002f6c; /* Dark blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
